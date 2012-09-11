@@ -7,14 +7,11 @@ if ENABLE_CURSES
 
 example_PROGRAMS = CursesTest
 
-CursesTest_SOURCES = CursesTest.c
-CursesTest_LDADD = -lcunit -lcunitexamples
+CursesTest_SOURCES = CursesTest.c CursesTest.h
+CursesTest_LDADD = -lcunit -lcunitexamples -lncurses
 CursesTest_LDFLAGS = -L.. -lm
 INCLUDES = -I..
 
-if ENABLE_CURSES
-CursesTest_LDADD += -l$(CURSES_LIB)
-endif
 example_DATA = README
 
 endif

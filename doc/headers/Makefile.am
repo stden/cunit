@@ -8,13 +8,11 @@ INCLUDE_FILES = \
 	Console.h \
 	CUError.h \
 	CUnit.h \
-	CUnit_intl.h \
 	CUCurses.h \
 	MyMem.h \
 	TestDB.h \
 	TestRun.h \
-	Util.h \
-	Win.h
+	Util.h 
 
 dochdr_DATA = $(INCLUDE_FILES)
 CLEANFILES = $(INCLUDE_FILES)
@@ -23,5 +21,4 @@ $(INCLUDE_FILES) : copy_headers
 
 copy_headers:
 	cp -f ../../CUnit/Headers/*.h .
-	cp -f ../../CUnit/Sources/Win/Win.h .
 

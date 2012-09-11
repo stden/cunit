@@ -7,7 +7,7 @@ if ENABLE_BASIC
 
 example_PROGRAMS = BasicTest
 
-BasicTest_SOURCES = BasicTest.c
+BasicTest_SOURCES = BasicTest.c BasicTest.h
 BasicTest_LDADD = -lcunit -lcunitexamples
 BasicTest_LDFLAGS = -L.. -lm
 INCLUDES = -I..

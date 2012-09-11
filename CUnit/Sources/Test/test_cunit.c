@@ -1,6 +1,6 @@
 /*
  *  CUnit - A Unit testing framework library for C.
- *  Copyright (C) 2004-2006  Jerry St.Clair
+ *  Copyright (C) 2004,2005,2006  Jerry St.Clair
  *
  *  This library is free software; you can redistribute it and/or
  *  modify it under the terms of the GNU Library General Public
@@ -21,8 +21,6 @@
  *  Support for unit tests of CUnit framework
  *
  *  12-Aug-2004   Initial implementation. (JDS)
- *
- *  02-May-2006   Added internationalization hooks.  (JDS)
  */
 
 /** @file
@@ -41,7 +39,6 @@
 #include "CUnit.h"
 #include "MyMem.h"
 #include "Util.h"
-#include "CUnit_intl.h"
 #include "test_cunit.h"
 
 static unsigned int f_nTests = 0;
@@ -59,7 +56,7 @@ int main()
   setbuf(stdout, NULL);
 
   test_cunit_initialize();
-  fprintf(stdout, "\n%s", _("Testing CUnit internals..."));
+  fprintf(stdout, "\nTesting CUnit internals...");
 
 	/* individual module test functions go here */
   test_cunit_CUError();
@@ -76,14 +73,14 @@ int main()
 
 void test_cunit_start_tests(const char* strName)
 {
-  fprintf(stdout, _("\n     testing %s ... "), strName);
+  fprintf(stdout, "\n\ttesting %s ...", strName);
   f_nTests_stored = f_nTests;
   f_nFails_stored = f_nFailures;
 }
 
 void test_cunit_end_tests(void)
 {
-  fprintf(stdout, _("%d assertions, %d failures"),
+  fprintf(stdout, "\b\b\b - %d assertions, %d failures",
                   f_nTests - f_nTests_stored,
                   f_nFailures - f_nFails_stored);
 }
@@ -119,22 +116,14 @@ void test_cunit_report_results(void)
 {
   fprintf(stdout,
           "\n\n---------------------------"
-          "\n%s"
+          "\nCUnit Internal Test Results"
           "\n---------------------------"
-          "\n  %s%d"
-          "\n     %s%d"
-          "\n     %s%d"
-          "\n\n%s%8.3f%s\n",
-          _("CUnit Internal Test Results"),
-          _("Total Number of Assertions: "),
-          f_nTests,
-          _("Successes: "),
-          f_nTests-f_nFailures,
-          _("Failures: "),
-          f_nFailures,
-          _("Total test time = "),
-          ((double)clock() - (double)f_start_time)/(double)CLOCKS_PER_SEC,
-          _(" seconds."));
+          "\n  Total Number of Assertions: %d"
+          "\n     Successes: %d"
+          "\n     Failures:  %d"
+        "\n\nTotal test time = %8.3f seconds.\n",
+          f_nTests, f_nTests-f_nFailures, f_nFailures,
+          ((double)clock() - (double)f_start_time)/(double)CLOCKS_PER_SEC);
 }
 
 CU_BOOL test_cunit_assert_impl(CU_BOOL value, 
@@ -145,7 +134,7 @@ CU_BOOL test_cunit_assert_impl(CU_BOOL value,
   test_cunit_add_test();
   if (CU_FALSE == value) {
     test_cunit_add_failure();
-    printf(_("\nTEST FAILED: File '%s', Line %d, Condition '%s.'\n"),
+    printf("\nTEST FAILED: File '%s', Line %d, Condition '%s.'\n",
            file, line, condition);
   }
   return value;

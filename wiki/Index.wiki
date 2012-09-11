@@ -1,0 +1,65 @@
+= CUnit =
+
+=== A unit testing framework for C ===
+
+====Project Admin: Manolis Maragos====
+
+----
+
+== Table of Contents ==
+
+1. [introduction Introduction]
+
+    # Description
+    # Structure
+    # General Usage
+    # Changes to the CUnit API in Version 2
+
+2. [writing_tests Writing CUnit Tests]
+
+    #  Test Functions
+    #  CUnit Assertions
+    #  Deprecated v1 Assertions
+
+3. [test_registry The Test Registry]
+
+    #  Synopsis
+    #  Internal Structure
+    #  Initialization
+    #  Cleanup
+    #  Other Registry Functions
+    #  Deprecated v1 Data Types & Functions
+
+4. [managing_tests Managing Tests & Suites]
+
+    #  Synopsis
+    #  Adding Suites to the Registry
+    #  Adding Tests to Suites
+    #  Shortcut Methods for Managing Tests
+    #  Deprecated v1 Data Types & Functions
+
+5. [running_tests Running Tests]
+
+    #  Synopsis
+    #  Running Tests in CUnit
+    #  Automated Mode
+    #  Basic Mode
+    #  Interactive Console Mode
+    #  Interactive Curses Mode
+    #  Getting Test Results
+    #  Deprecated v1 Data Types & Functions
+
+6. [error_handling Error Handling]
+
+    #  Synopsis
+    #  CUnit Error Handling
+    #  CUnit Behavior on Framework Errors
+    #  Deprecated v1 Variables & Functions
+
+
+
+----
+
+|| Copyright (c) 2004, 2005 Jerry St.Clair  Permission is granted to copy, distribute and/or modify this document under the terms of the [fdl.html GNU Free Documentation License, Version 1.2] or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. ||
+
+|| [introduction Next] || Introduction ||

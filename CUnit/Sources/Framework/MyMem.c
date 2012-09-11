@@ -1,7 +1,7 @@
 /*
  *  CUnit - A Unit testing framework library for C.
- *  Copyright (C) 2001       Anil Kumar
- *  Copyright (C) 2004-2006  Anil Kumar, Jerry St.Clair
+ *  Copyright (C) 2001            Anil Kumar
+ *  Copyright (C) 2004,2005,2006  Anil Kumar, Jerry St.Clair
  *
  *  This library is free software; you can redistribute it and/or
  *  modify it under the terms of the GNU Library General Public
@@ -33,8 +33,6 @@
  *
  *  24-Apr-2005   Changed type of allocated sizes to size_t to avoid
  *                signed-unsigned mismatch. (JDS)
- *
- *  02-May-2006   Added internationalization hooks.  (JDS)
  */
 
 /** @file
@@ -54,7 +52,6 @@
 
 #include "CUnit.h"
 #include "MyMem.h"
-#include "CUnit_intl.h"
 
 #ifdef MEMTRACE
 
@@ -157,7 +154,7 @@ static PMEMORY_EVENT add_memory_event(PMEMORY_NODE pMemoryNode,
   assert (NULL != pMemoryNode);
 
   /* create and set up the new event */
-  pMemoryEvent = (PMEMORY_EVENT)malloc(sizeof(MEMORY_EVENT));
+  pMemoryEvent = malloc(sizeof(MEMORY_EVENT));
   assert(NULL != pMemoryEvent);
 
   pMemoryEvent->Size = size;
@@ -336,7 +333,7 @@ void CU_dump_memory_usage(const char* szFilename)
   }
 
   if (NULL == (pFile = fopen(szDumpFileName, "w"))) {
-    fprintf(stderr, _("Failed to open file \"%s\" : %s"), szDumpFileName, strerror(errno));
+    fprintf(stderr, "Failed to open file \"%s\" : %s", szDumpFileName, strerror(errno));
     return;
   }
 
