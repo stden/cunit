@@ -5,7 +5,7 @@
   <MD_HEADER/>
   <MD_RUN_LISTING>
     <MD_RUN_RECORD>
-      <MD_POINTER> 00201AF8 </MD_POINTER>
+      <MD_POINTER> 001B1AF8 </MD_POINTER>
       <MD_EVENT_COUNT> 2 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 8 </MD_SIZE>
@@ -23,8 +23,8 @@
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 00201AD8 </MD_POINTER>
-      <MD_EVENT_COUNT> 3 </MD_EVENT_COUNT>
+      <MD_POINTER> 001B1AD8 </MD_POINTER>
+      <MD_EVENT_COUNT> 4 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 4 </MD_SIZE>
         <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\MyMem.c </MD_ALLOC_FILE>
@@ -46,10 +46,6 @@
         <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\MyMem.c </MD_DEALLOC_FILE>
         <MD_DEALLOC_LINE> 559 </MD_DEALLOC_LINE>
       </MD_EVENT_RECORD>
-    </MD_RUN_RECORD>
-    <MD_RUN_RECORD>
-      <MD_POINTER> 00201B68 </MD_POINTER>
-      <MD_EVENT_COUNT> 2 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 12 </MD_SIZE>
         <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
@@ -57,6 +53,10 @@
         <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_DEALLOC_FILE>
         <MD_DEALLOC_LINE> 728 </MD_DEALLOC_LINE>
       </MD_EVENT_RECORD>
+    </MD_RUN_RECORD>
+    <MD_RUN_RECORD>
+      <MD_POINTER> 001B3B20 </MD_POINTER>
+      <MD_EVENT_COUNT> 1 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 12 </MD_SIZE>
         <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
@@ -175,7 +175,7 @@
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 00204A48 </MD_POINTER>
+      <MD_POINTER> 001B4A88 </MD_POINTER>
       <MD_EVENT_COUNT> 34 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 12 </MD_SIZE>
@@ -417,8 +417,8 @@
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 00204EE8 </MD_POINTER>
-      <MD_EVENT_COUNT> 14 </MD_EVENT_COUNT>
+      <MD_POINTER> 001B4F28 </MD_POINTER>
+      <MD_EVENT_COUNT> 13 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 28 </MD_SIZE>
         <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
@@ -491,24 +491,17 @@
       </MD_EVENT_RECORD>
       <MD_EVENT_RECORD>
         <MD_SIZE> 28 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 433 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 409 </MD_DEALLOC_LINE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
       </MD_EVENT_RECORD>
       <MD_EVENT_RECORD>
         <MD_SIZE> 28 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 433 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 409 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 28 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 433 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 409 </MD_DEALLOC_LINE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
       </MD_EVENT_RECORD>
       <MD_EVENT_RECORD>
         <MD_SIZE> 28 </MD_SIZE>
@@ -519,7 +512,7 @@
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 00205170 </MD_POINTER>
+      <MD_POINTER> 001B51B0 </MD_POINTER>
       <MD_EVENT_COUNT> 12 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 7 </MD_SIZE>
@@ -607,7 +600,7 @@
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 00205C80 </MD_POINTER>
+      <MD_POINTER> 001B5CC0 </MD_POINTER>
       <MD_EVENT_COUNT> 12 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 28 </MD_SIZE>
@@ -673,11 +666,11 @@
         <MD_DEALLOC_LINE> 481 </MD_DEALLOC_LINE>
       </MD_EVENT_RECORD>
       <MD_EVENT_RECORD>
-        <MD_SIZE> 28 </MD_SIZE>
+        <MD_SIZE> 9 </MD_SIZE>
         <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
+        <MD_ALLOC_LINE> 618 </MD_ALLOC_LINE>
         <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
+        <MD_DEALLOC_LINE> 705 </MD_DEALLOC_LINE>
       </MD_EVENT_RECORD>
       <MD_EVENT_RECORD>
         <MD_SIZE> 28 </MD_SIZE>
@@ -695,7 +688,7 @@
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 00205F08 </MD_POINTER>
+      <MD_POINTER> 001B5F48 </MD_POINTER>
       <MD_EVENT_COUNT> 10 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 7 </MD_SIZE>
@@ -769,8 +762,8 @@
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 00206178 </MD_POINTER>
-      <MD_EVENT_COUNT> 25 </MD_EVENT_COUNT>
+      <MD_POINTER> 001B61B8 </MD_POINTER>
+      <MD_EVENT_COUNT> 26 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 28 </MD_SIZE>
         <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
@@ -856,11 +849,11 @@
         <MD_DEALLOC_LINE> 481 </MD_DEALLOC_LINE>
       </MD_EVENT_RECORD>
       <MD_EVENT_RECORD>
-        <MD_SIZE> 28 </MD_SIZE>
+        <MD_SIZE> 22 </MD_SIZE>
         <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
+        <MD_ALLOC_LINE> 618 </MD_ALLOC_LINE>
         <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
+        <MD_DEALLOC_LINE> 705 </MD_DEALLOC_LINE>
       </MD_EVENT_RECORD>
       <MD_EVENT_RECORD>
         <MD_SIZE> 28 </MD_SIZE>
@@ -884,18 +877,25 @@
         <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
       </MD_EVENT_RECORD>
       <MD_EVENT_RECORD>
-        <MD_SIZE> 28 </MD_SIZE>
+        <MD_SIZE> 22 </MD_SIZE>
         <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
+        <MD_ALLOC_LINE> 618 </MD_ALLOC_LINE>
         <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
+        <MD_DEALLOC_LINE> 705 </MD_DEALLOC_LINE>
       </MD_EVENT_RECORD>
       <MD_EVENT_RECORD>
-        <MD_SIZE> 28 </MD_SIZE>
+        <MD_SIZE> 22 </MD_SIZE>
         <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
+        <MD_ALLOC_LINE> 618 </MD_ALLOC_LINE>
         <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
+        <MD_DEALLOC_LINE> 705 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 22 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 618 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 705 </MD_DEALLOC_LINE>
       </MD_EVENT_RECORD>
       <MD_EVENT_RECORD>
         <MD_SIZE> 28 </MD_SIZE>
@@ -948,7 +948,7 @@
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 00206400 </MD_POINTER>
+      <MD_POINTER> 001B6440 </MD_POINTER>
       <MD_EVENT_COUNT> 16 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 7 </MD_SIZE>
@@ -1064,8 +1064,8 @@
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 00206670 </MD_POINTER>
-      <MD_EVENT_COUNT> 15 </MD_EVENT_COUNT>
+      <MD_POINTER> 001B66B0 </MD_POINTER>
+      <MD_EVENT_COUNT> 23 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 28 </MD_SIZE>
         <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
@@ -1166,14 +1166,70 @@
       </MD_EVENT_RECORD>
       <MD_EVENT_RECORD>
         <MD_SIZE> 28 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 28 </MD_SIZE>
         <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
         <MD_ALLOC_LINE> 433 </MD_ALLOC_LINE>
         <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_DEALLOC_FILE>
         <MD_DEALLOC_LINE> 409 </MD_DEALLOC_LINE>
       </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 28 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 28 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 28 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 22 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 618 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 705 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 28 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 28 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 28 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 002068F8 </MD_POINTER>
+      <MD_POINTER> 001B6938 </MD_POINTER>
       <MD_EVENT_COUNT> 16 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 7 </MD_SIZE>
@@ -1289,8 +1345,8 @@
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 002098B0 </MD_POINTER>
-      <MD_EVENT_COUNT> 13 </MD_EVENT_COUNT>
+      <MD_POINTER> 001B98F0 </MD_POINTER>
+      <MD_EVENT_COUNT> 8 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 20 </MD_SIZE>
         <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
@@ -1347,44 +1403,9 @@
         <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_DEALLOC_FILE>
         <MD_DEALLOC_LINE> 481 </MD_DEALLOC_LINE>
       </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 9 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 618 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 705 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 20 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 550 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 481 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 20 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 550 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 481 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 20 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 550 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 481 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 22 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 618 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 705 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 00209B30 </MD_POINTER>
+      <MD_POINTER> 001B9B70 </MD_POINTER>
       <MD_EVENT_COUNT> 12 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 6 </MD_SIZE>
@@ -1472,7 +1493,7 @@
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 00209DA0 </MD_POINTER>
+      <MD_POINTER> 001B9DE0 </MD_POINTER>
       <MD_EVENT_COUNT> 11 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 20 </MD_SIZE>
@@ -1553,7 +1574,7 @@
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 0020A020 </MD_POINTER>
+      <MD_POINTER> 001BA060 </MD_POINTER>
       <MD_EVENT_COUNT> 11 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 6 </MD_SIZE>
@@ -1634,7 +1655,7 @@
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 0020C510 </MD_POINTER>
+      <MD_POINTER> 001BC550 </MD_POINTER>
       <MD_EVENT_COUNT> 1 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 12 </MD_SIZE>
@@ -1645,8 +1666,8 @@
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 0020FF98 </MD_POINTER>
-      <MD_EVENT_COUNT> 3 </MD_EVENT_COUNT>
+      <MD_POINTER> 00376E40 </MD_POINTER>
+      <MD_EVENT_COUNT> 5 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 28 </MD_SIZE>
         <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
@@ -1655,22 +1676,36 @@
         <MD_DEALLOC_LINE> 409 </MD_DEALLOC_LINE>
       </MD_EVENT_RECORD>
       <MD_EVENT_RECORD>
-        <MD_SIZE> 40 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 609 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 709 </MD_DEALLOC_LINE>
+        <MD_SIZE> 28 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 433 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 409 </MD_DEALLOC_LINE>
       </MD_EVENT_RECORD>
       <MD_EVENT_RECORD>
-        <MD_SIZE> 44 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 618 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 705 </MD_DEALLOC_LINE>
+        <MD_SIZE> 28 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 433 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 409 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 28 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 433 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 409 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 28 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 433 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 409 </MD_DEALLOC_LINE>
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 006C7068 </MD_POINTER>
+      <MD_POINTER> 003770A0 </MD_POINTER>
       <MD_EVENT_COUNT> 5 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 3 </MD_SIZE>
@@ -1709,7 +1744,7 @@
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 006C72D8 </MD_POINTER>
+      <MD_POINTER> 00377310 </MD_POINTER>
       <MD_EVENT_COUNT> 5 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 20 </MD_SIZE>
@@ -1748,85 +1783,7 @@
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 006C7558 </MD_POINTER>
-      <MD_EVENT_COUNT> 5 </MD_EVENT_COUNT>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 2 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 555 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 586 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 6 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 555 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 586 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 6 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 555 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 586 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 7 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 438 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 485 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 7 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 438 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 485 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-    </MD_RUN_RECORD>
-    <MD_RUN_RECORD>
-      <MD_POINTER> 006C77C8 </MD_POINTER>
-      <MD_EVENT_COUNT> 5 </MD_EVENT_COUNT>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 20 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 550 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 481 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 20 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 550 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 481 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 20 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 550 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 481 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 20 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 550 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 481 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 20 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 550 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 481 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-    </MD_RUN_RECORD>
-    <MD_RUN_RECORD>
-      <MD_POINTER> 006C7A48 </MD_POINTER>
+      <MD_POINTER> 00377590 </MD_POINTER>
       <MD_EVENT_COUNT> 5 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 2 </MD_SIZE>
@@ -1836,6 +1793,84 @@
         <MD_DEALLOC_LINE> 586 </MD_DEALLOC_LINE>
       </MD_EVENT_RECORD>
       <MD_EVENT_RECORD>
+        <MD_SIZE> 6 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 555 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 586 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 6 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 555 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 586 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 7 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 438 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 485 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 7 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 438 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 485 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+    </MD_RUN_RECORD>
+    <MD_RUN_RECORD>
+      <MD_POINTER> 00377800 </MD_POINTER>
+      <MD_EVENT_COUNT> 5 </MD_EVENT_COUNT>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 20 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 550 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 481 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 20 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 550 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 481 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 20 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 550 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 481 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 20 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 550 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 481 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 20 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 550 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 481 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+    </MD_RUN_RECORD>
+    <MD_RUN_RECORD>
+      <MD_POINTER> 00377A80 </MD_POINTER>
+      <MD_EVENT_COUNT> 5 </MD_EVENT_COUNT>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 2 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 555 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 586 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
         <MD_SIZE> 7 </MD_SIZE>
         <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
         <MD_ALLOC_LINE> 438 </MD_ALLOC_LINE>
@@ -1865,8 +1900,8 @@
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 006C7CB8 </MD_POINTER>
-      <MD_EVENT_COUNT> 3 </MD_EVENT_COUNT>
+      <MD_POINTER> 00377CF0 </MD_POINTER>
+      <MD_EVENT_COUNT> 20 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 28 </MD_SIZE>
         <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
@@ -1880,6 +1915,125 @@
         <MD_ALLOC_LINE> 433 </MD_ALLOC_LINE>
         <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_DEALLOC_FILE>
         <MD_DEALLOC_LINE> 409 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 20 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 550 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 481 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 28 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 28 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 28 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 28 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 28 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 28 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 28 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 28 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 28 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 28 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 28 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 28 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 28 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 22 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 618 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 705 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 22 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 618 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 705 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 28 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
       </MD_EVENT_RECORD>
       <MD_EVENT_RECORD>
         <MD_SIZE> 28 </MD_SIZE>
@@ -1890,7 +2044,7 @@
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 006C7F40 </MD_POINTER>
+      <MD_POINTER> 00377F78 </MD_POINTER>
       <MD_EVENT_COUNT> 5 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 3 </MD_SIZE>
@@ -1929,8 +2083,8 @@
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 006C81B0 </MD_POINTER>
-      <MD_EVENT_COUNT> 5 </MD_EVENT_COUNT>
+      <MD_POINTER> 003781E8 </MD_POINTER>
+      <MD_EVENT_COUNT> 6 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 20 </MD_SIZE>
         <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
@@ -1965,10 +2119,17 @@
         <MD_ALLOC_LINE> 550 </MD_ALLOC_LINE>
         <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_DEALLOC_FILE>
         <MD_DEALLOC_LINE> 481 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 22 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 618 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 705 </MD_DEALLOC_LINE>
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 006C8430 </MD_POINTER>
+      <MD_POINTER> 00378468 </MD_POINTER>
       <MD_EVENT_COUNT> 6 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 2 </MD_SIZE>
@@ -2014,8 +2175,8 @@
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 006C86A0 </MD_POINTER>
-      <MD_EVENT_COUNT> 5 </MD_EVENT_COUNT>
+      <MD_POINTER> 003786D8 </MD_POINTER>
+      <MD_EVENT_COUNT> 6 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 20 </MD_SIZE>
         <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
@@ -2050,10 +2211,17 @@
         <MD_ALLOC_LINE> 550 </MD_ALLOC_LINE>
         <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_DEALLOC_FILE>
         <MD_DEALLOC_LINE> 481 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 22 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 618 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 705 </MD_DEALLOC_LINE>
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 006C8920 </MD_POINTER>
+      <MD_POINTER> 00378958 </MD_POINTER>
       <MD_EVENT_COUNT> 5 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 2 </MD_SIZE>
@@ -2092,7 +2260,137 @@
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 006CB8E0 </MD_POINTER>
+      <MD_POINTER> 0037B298 </MD_POINTER>
+      <MD_EVENT_COUNT> 18 </MD_EVENT_COUNT>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 40 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 609 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 709 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 28 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 40 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 609 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 709 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 40 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 609 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 709 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 40 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 609 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 709 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 40 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 609 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 709 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 40 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 609 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 709 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 40 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 609 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 709 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 40 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 609 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 709 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 40 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 609 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 709 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 40 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 609 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 709 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 40 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 609 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 709 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 40 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 609 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 709 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 40 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 609 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 709 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 40 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 609 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 709 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 40 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 609 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 709 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 40 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 609 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 709 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 40 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 609 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 709 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+    </MD_RUN_RECORD>
+    <MD_RUN_RECORD>
+      <MD_POINTER> 0037B950 </MD_POINTER>
       <MD_EVENT_COUNT> 4 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 13 </MD_SIZE>
@@ -2124,7 +2422,7 @@
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 006CBB58 </MD_POINTER>
+      <MD_POINTER> 0037BBC8 </MD_POINTER>
       <MD_EVENT_COUNT> 2 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 44 </MD_SIZE>
@@ -2134,93 +2432,16 @@
         <MD_DEALLOC_LINE> 705 </MD_DEALLOC_LINE>
       </MD_EVENT_RECORD>
       <MD_EVENT_RECORD>
-        <MD_SIZE> 13 </MD_SIZE>
+        <MD_SIZE> 44 </MD_SIZE>
         <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 609 </MD_ALLOC_LINE>
+        <MD_ALLOC_LINE> 618 </MD_ALLOC_LINE>
         <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 709 </MD_DEALLOC_LINE>
+        <MD_DEALLOC_LINE> 705 </MD_DEALLOC_LINE>
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 006CBDF0 </MD_POINTER>
-      <MD_EVENT_COUNT> 13 </MD_EVENT_COUNT>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 28 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 28 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 28 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 28 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 433 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 409 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 28 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 28 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 28 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 28 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 28 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 28 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 28 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
+      <MD_POINTER> 0037BE60 </MD_POINTER>
+      <MD_EVENT_COUNT> 2 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 28 </MD_SIZE>
         <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
@@ -2237,7 +2458,7 @@
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 006CC078 </MD_POINTER>
+      <MD_POINTER> 0037C0E8 </MD_POINTER>
       <MD_EVENT_COUNT> 4 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 40 </MD_SIZE>
@@ -2269,7 +2490,7 @@
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 006CC308 </MD_POINTER>
+      <MD_POINTER> 0037C378 </MD_POINTER>
       <MD_EVENT_COUNT> 1 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 9 </MD_SIZE>
@@ -2280,8 +2501,8 @@
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 006CC580 </MD_POINTER>
-      <MD_EVENT_COUNT> 8 </MD_EVENT_COUNT>
+      <MD_POINTER> 0037C5F0 </MD_POINTER>
+      <MD_EVENT_COUNT> 6 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 28 </MD_SIZE>
         <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
@@ -2323,25 +2544,11 @@
         <MD_ALLOC_LINE> 433 </MD_ALLOC_LINE>
         <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_DEALLOC_FILE>
         <MD_DEALLOC_LINE> 409 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 28 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 28 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 006CC808 </MD_POINTER>
-      <MD_EVENT_COUNT> 17 </MD_EVENT_COUNT>
+      <MD_POINTER> 0037C878 </MD_POINTER>
+      <MD_EVENT_COUNT> 14 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 13 </MD_SIZE>
         <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
@@ -2440,30 +2647,9 @@
         <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
         <MD_DEALLOC_LINE> 705 </MD_DEALLOC_LINE>
       </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 13 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 609 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 709 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 13 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 609 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 709 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 9 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 609 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 709 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 006CCA80 </MD_POINTER>
+      <MD_POINTER> 0037CAF0 </MD_POINTER>
       <MD_EVENT_COUNT> 5 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 22 </MD_SIZE>
@@ -2502,7 +2688,7 @@
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 006CD378 </MD_POINTER>
+      <MD_POINTER> 0037D3E8 </MD_POINTER>
       <MD_EVENT_COUNT> 3 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 28 </MD_SIZE>
@@ -2527,7 +2713,7 @@
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 006CD800 </MD_POINTER>
+      <MD_POINTER> 0037D870 </MD_POINTER>
       <MD_EVENT_COUNT> 14 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 44 </MD_SIZE>
@@ -2544,11 +2730,11 @@
         <MD_DEALLOC_LINE> 705 </MD_DEALLOC_LINE>
       </MD_EVENT_RECORD>
       <MD_EVENT_RECORD>
-        <MD_SIZE> 28 </MD_SIZE>
+        <MD_SIZE> 13 </MD_SIZE>
         <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
+        <MD_ALLOC_LINE> 609 </MD_ALLOC_LINE>
         <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
+        <MD_DEALLOC_LINE> 709 </MD_DEALLOC_LINE>
       </MD_EVENT_RECORD>
       <MD_EVENT_RECORD>
         <MD_SIZE> 44 </MD_SIZE>
@@ -2629,7 +2815,7 @@
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 006CDAC8 </MD_POINTER>
+      <MD_POINTER> 0037DB38 </MD_POINTER>
       <MD_EVENT_COUNT> 1 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 28 </MD_SIZE>
@@ -2640,120 +2826,8 @@
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 006CDD50 </MD_POINTER>
-      <MD_EVENT_COUNT> 19 </MD_EVENT_COUNT>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 40 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 609 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 709 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 40 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 609 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 709 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 40 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 609 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 709 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 40 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 609 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 709 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 40 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 609 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 709 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 40 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 609 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 709 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 40 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 609 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 709 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 40 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 609 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 709 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 40 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 609 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 709 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 40 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 609 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 709 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 40 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 609 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 709 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 40 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 609 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 709 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 40 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 609 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 709 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 40 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 609 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 709 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 40 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 609 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 709 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 40 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 609 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 709 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
+      <MD_POINTER> 0037DDC0 </MD_POINTER>
+      <MD_EVENT_COUNT> 3 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 40 </MD_SIZE>
         <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
@@ -2777,7 +2851,7 @@
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 006CDFE8 </MD_POINTER>
+      <MD_POINTER> 0037E050 </MD_POINTER>
       <MD_EVENT_COUNT> 3 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 9 </MD_SIZE>
@@ -2802,7 +2876,7 @@
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 006CE2C0 </MD_POINTER>
+      <MD_POINTER> 0037E328 </MD_POINTER>
       <MD_EVENT_COUNT> 1 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 28 </MD_SIZE>
@@ -2813,8 +2887,8 @@
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 006CE548 </MD_POINTER>
-      <MD_EVENT_COUNT> 18 </MD_EVENT_COUNT>
+      <MD_POINTER> 0037E5B0 </MD_POINTER>
+      <MD_EVENT_COUNT> 21 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 13 </MD_SIZE>
         <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
@@ -2940,10 +3014,31 @@
         <MD_ALLOC_LINE> 618 </MD_ALLOC_LINE>
         <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
         <MD_DEALLOC_LINE> 705 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 13 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 609 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 709 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 13 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 609 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 709 </MD_DEALLOC_LINE>
+      </MD_EVENT_RECORD>
+      <MD_EVENT_RECORD>
+        <MD_SIZE> 9 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 609 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 709 </MD_DEALLOC_LINE>
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 006CE7C0 </MD_POINTER>
+      <MD_POINTER> 0037E828 </MD_POINTER>
       <MD_EVENT_COUNT> 5 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 22 </MD_SIZE>
@@ -2982,7 +3077,7 @@
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 006CDA98 </MD_POINTER>
+      <MD_POINTER> 0037DB08 </MD_POINTER>
       <MD_EVENT_COUNT> 7 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 28 </MD_SIZE>
@@ -3035,7 +3130,7 @@
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 006CE260 </MD_POINTER>
+      <MD_POINTER> 0037E2C8 </MD_POINTER>
       <MD_EVENT_COUNT> 7 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 40 </MD_SIZE>
@@ -3088,8 +3183,8 @@
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 006CE2C8 </MD_POINTER>
-      <MD_EVENT_COUNT> 11 </MD_EVENT_COUNT>
+      <MD_POINTER> 0037E330 </MD_POINTER>
+      <MD_EVENT_COUNT> 3 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 9 </MD_SIZE>
         <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
@@ -3098,79 +3193,23 @@
         <MD_DEALLOC_LINE> 705 </MD_DEALLOC_LINE>
       </MD_EVENT_RECORD>
       <MD_EVENT_RECORD>
-        <MD_SIZE> 22 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 618 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 705 </MD_DEALLOC_LINE>
+        <MD_SIZE> 20 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 550 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 481 </MD_DEALLOC_LINE>
       </MD_EVENT_RECORD>
       <MD_EVENT_RECORD>
-        <MD_SIZE> 22 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 618 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 705 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 22 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 618 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 705 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 22 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 618 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 705 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 22 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 618 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 705 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 22 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 618 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 705 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 22 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 618 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 705 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 22 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 618 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 705 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 22 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 618 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 705 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 22 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 618 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 705 </MD_DEALLOC_LINE>
+        <MD_SIZE> 20 </MD_SIZE>
+        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_ALLOC_FILE>
+        <MD_ALLOC_LINE> 550 </MD_ALLOC_LINE>
+        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_DEALLOC_FILE>
+        <MD_DEALLOC_LINE> 481 </MD_DEALLOC_LINE>
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 006D6550 </MD_POINTER>
-      <MD_EVENT_COUNT> 16 </MD_EVENT_COUNT>
+      <MD_POINTER> 003865B8 </MD_POINTER>
+      <MD_EVENT_COUNT> 14 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 28 </MD_SIZE>
         <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
@@ -3235,32 +3274,18 @@
         <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
       </MD_EVENT_RECORD>
       <MD_EVENT_RECORD>
-        <MD_SIZE> 28 </MD_SIZE>
+        <MD_SIZE> 22 </MD_SIZE>
         <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
+        <MD_ALLOC_LINE> 618 </MD_ALLOC_LINE>
         <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
+        <MD_DEALLOC_LINE> 705 </MD_DEALLOC_LINE>
       </MD_EVENT_RECORD>
       <MD_EVENT_RECORD>
-        <MD_SIZE> 28 </MD_SIZE>
+        <MD_SIZE> 22 </MD_SIZE>
         <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
+        <MD_ALLOC_LINE> 618 </MD_ALLOC_LINE>
         <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 28 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 28 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
+        <MD_DEALLOC_LINE> 705 </MD_DEALLOC_LINE>
       </MD_EVENT_RECORD>
       <MD_EVENT_RECORD>
         <MD_SIZE> 28 </MD_SIZE>
@@ -3285,7 +3310,7 @@
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 006D67D8 </MD_POINTER>
+      <MD_POINTER> 00386840 </MD_POINTER>
       <MD_EVENT_COUNT> 7 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 13 </MD_SIZE>
@@ -3338,7 +3363,7 @@
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
     <MD_RUN_RECORD>
-      <MD_POINTER> 006D6A50 </MD_POINTER>
+      <MD_POINTER> 00386AB8 </MD_POINTER>
       <MD_EVENT_COUNT> 3 </MD_EVENT_COUNT>
       <MD_EVENT_RECORD>
         <MD_SIZE> 22 </MD_SIZE>
@@ -3360,31 +3385,6 @@
         <MD_ALLOC_LINE> 550 </MD_ALLOC_LINE>
         <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestDB.c </MD_DEALLOC_FILE>
         <MD_DEALLOC_LINE> 481 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-    </MD_RUN_RECORD>
-    <MD_RUN_RECORD>
-      <MD_POINTER> 006EDFB0 </MD_POINTER>
-      <MD_EVENT_COUNT> 3 </MD_EVENT_COUNT>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 28 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 28 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
-      </MD_EVENT_RECORD>
-      <MD_EVENT_RECORD>
-        <MD_SIZE> 28 </MD_SIZE>
-        <MD_ALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_ALLOC_FILE>
-        <MD_ALLOC_LINE> 600 </MD_ALLOC_LINE>
-        <MD_DEALLOC_FILE> ..\..\CUnit\Sources\Framework\TestRun.c </MD_DEALLOC_FILE>
-        <MD_DEALLOC_LINE> 713 </MD_DEALLOC_LINE>
       </MD_EVENT_RECORD>
     </MD_RUN_RECORD>
   </MD_RUN_LISTING>
@@ -3393,5 +3393,5 @@
     <MD_SUMMARY_INVALID_RECORDS> 15 </MD_SUMMARY_INVALID_RECORDS>
     <MD_SUMMARY_TOTAL_RECORDS> 453 </MD_SUMMARY_TOTAL_RECORDS>
   </MD_SUMMARY>
-  <MD_FOOTER> Memory Trace for CUnit Run at Tue Sep 11 18:26:20 2012
+  <MD_FOOTER> Memory Trace for CUnit Run at Tue Sep 11 18:34:47 2012
  </MD_FOOTER></MEMORY_DUMP_REPORT>
