@@ -1,0 +1,507 @@
+<?xml version="1.0" ?> 
+<?xml-stylesheet type="text/xsl" href="CUnit-Run.xsl" ?> 
+<!DOCTYPE CUNIT_TEST_RUN_REPORT SYSTEM "CUnit-Run.dtd"> 
+<CUNIT_TEST_RUN_REPORT> 
+  <CUNIT_HEADER/> 
+  <CUNIT_RESULT_LISTING> 
+    <CUNIT_RUN_SUITE> 
+      <CUNIT_RUN_SUITE_SUCCESS> 
+        <SUITE_NAME> suite_success_both </SUITE_NAME> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> testSuccess1 </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> testSuccess2 </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> testSuccess3 </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+      </CUNIT_RUN_SUITE_SUCCESS> 
+    </CUNIT_RUN_SUITE> 
+    <CUNIT_RUN_SUITE> 
+      <CUNIT_RUN_SUITE_SUCCESS> 
+        <SUITE_NAME> suite_success_init </SUITE_NAME> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> testSuccess1 </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> testSuccess2 </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> testSuccess3 </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+      </CUNIT_RUN_SUITE_SUCCESS> 
+    </CUNIT_RUN_SUITE> 
+    <CUNIT_RUN_SUITE> 
+      <CUNIT_RUN_SUITE_SUCCESS> 
+        <SUITE_NAME> suite_success_clean </SUITE_NAME> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> testSuccess1 </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> testSuccess2 </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> testSuccess3 </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+      </CUNIT_RUN_SUITE_SUCCESS> 
+    </CUNIT_RUN_SUITE> 
+    <CUNIT_RUN_SUITE> 
+      <CUNIT_RUN_SUITE_SUCCESS> 
+        <SUITE_NAME> test_failure </SUITE_NAME> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_FAILURE> 
+            <TEST_NAME> testFailure1 </TEST_NAME> 
+            <FILE_NAME> ..\..\Examples\ExampleTests.c </FILE_NAME> 
+            <LINE_NUMBER> 52 </LINE_NUMBER> 
+            <CONDITION> 0 </CONDITION> 
+          </CUNIT_RUN_TEST_FAILURE> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_FAILURE> 
+            <TEST_NAME> testFailure2 </TEST_NAME> 
+            <FILE_NAME> ..\..\Examples\ExampleTests.c </FILE_NAME> 
+            <LINE_NUMBER> 53 </LINE_NUMBER> 
+            <CONDITION> 0 </CONDITION> 
+          </CUNIT_RUN_TEST_FAILURE> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_FAILURE> 
+            <TEST_NAME> testFailure3 </TEST_NAME> 
+            <FILE_NAME> ..\..\Examples\ExampleTests.c </FILE_NAME> 
+            <LINE_NUMBER> 54 </LINE_NUMBER> 
+            <CONDITION> 0 </CONDITION> 
+          </CUNIT_RUN_TEST_FAILURE> 
+        </CUNIT_RUN_TEST_RECORD> 
+      </CUNIT_RUN_SUITE_SUCCESS> 
+    </CUNIT_RUN_SUITE> 
+    <CUNIT_RUN_SUITE> 
+      <CUNIT_RUN_SUITE_FAILURE> 
+        <SUITE_NAME> suite_failure_both </SUITE_NAME> 
+        <FAILURE_REASON> Suite Initialization Failed </FAILURE_REASON> 
+      </CUNIT_RUN_SUITE_FAILURE> 
+    </CUNIT_RUN_SUITE>  
+    <CUNIT_RUN_SUITE> 
+      <CUNIT_RUN_SUITE_FAILURE> 
+        <SUITE_NAME> suite_failure_init </SUITE_NAME> 
+        <FAILURE_REASON> Suite Initialization Failed </FAILURE_REASON> 
+      </CUNIT_RUN_SUITE_FAILURE> 
+    </CUNIT_RUN_SUITE>  
+    <CUNIT_RUN_SUITE> 
+      <CUNIT_RUN_SUITE_SUCCESS> 
+        <SUITE_NAME> suite_success_but_failure_clean </SUITE_NAME> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_FAILURE> 
+            <TEST_NAME> testSuiteFailure1 </TEST_NAME> 
+            <FILE_NAME> ..\..\Examples\ExampleTests.c </FILE_NAME> 
+            <LINE_NUMBER> 49 </LINE_NUMBER> 
+            <CONDITION> 0 </CONDITION> 
+          </CUNIT_RUN_TEST_FAILURE> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> testSuiteFailure2 </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+      </CUNIT_RUN_SUITE_SUCCESS> 
+    </CUNIT_RUN_SUITE> 
+    <CUNIT_RUN_SUITE> 
+      <CUNIT_RUN_SUITE_FAILURE> 
+        <SUITE_NAME> suite_success_but_failure_clean </SUITE_NAME> 
+        <FAILURE_REASON> Suite Cleanup Failed </FAILURE_REASON> 
+      </CUNIT_RUN_SUITE_FAILURE> 
+    </CUNIT_RUN_SUITE>  
+    <CUNIT_RUN_SUITE> 
+      <CUNIT_RUN_SUITE_SUCCESS> 
+        <SUITE_NAME> TestSimpleAssert </SUITE_NAME> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_FAILURE> 
+            <TEST_NAME> testSimpleAssert </TEST_NAME> 
+            <FILE_NAME> ..\..\Examples\ExampleTests.c </FILE_NAME> 
+            <LINE_NUMBER> 63 </LINE_NUMBER> 
+            <CONDITION> 0 </CONDITION> 
+          </CUNIT_RUN_TEST_FAILURE> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_FAILURE> 
+            <TEST_NAME> testSimpleAssert </TEST_NAME> 
+            <FILE_NAME> ..\..\Examples\ExampleTests.c </FILE_NAME> 
+            <LINE_NUMBER> 64 </LINE_NUMBER> 
+            <CONDITION> !1 </CONDITION> 
+          </CUNIT_RUN_TEST_FAILURE> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_FAILURE> 
+            <TEST_NAME> testSimpleAssert </TEST_NAME> 
+            <FILE_NAME> ..\..\Examples\ExampleTests.c </FILE_NAME> 
+            <LINE_NUMBER> 65 </LINE_NUMBER> 
+            <CONDITION> 0 </CONDITION> 
+          </CUNIT_RUN_TEST_FAILURE> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_FAILURE> 
+            <TEST_NAME> testFail </TEST_NAME> 
+            <FILE_NAME> ..\..\Examples\ExampleTests.c </FILE_NAME> 
+            <LINE_NUMBER> 70 </LINE_NUMBER> 
+            <CONDITION> CU_FAIL("This is a failure.") </CONDITION> 
+          </CUNIT_RUN_TEST_FAILURE> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_FAILURE> 
+            <TEST_NAME> testFail </TEST_NAME> 
+            <FILE_NAME> ..\..\Examples\ExampleTests.c </FILE_NAME> 
+            <LINE_NUMBER> 71 </LINE_NUMBER> 
+            <CONDITION> CU_FAIL("This is another failure.") </CONDITION> 
+          </CUNIT_RUN_TEST_FAILURE> 
+        </CUNIT_RUN_TEST_RECORD> 
+      </CUNIT_RUN_SUITE_SUCCESS> 
+    </CUNIT_RUN_SUITE> 
+    <CUNIT_RUN_SUITE> 
+      <CUNIT_RUN_SUITE_SUCCESS> 
+        <SUITE_NAME> TestBooleanAssert </SUITE_NAME> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_FAILURE> 
+            <TEST_NAME> testAssertTrue </TEST_NAME> 
+            <FILE_NAME> ..\..\Examples\ExampleTests.c </FILE_NAME> 
+            <LINE_NUMBER> 79 </LINE_NUMBER> 
+            <CONDITION> CU_ASSERT_TRUE(!CU_TRUE) </CONDITION> 
+          </CUNIT_RUN_TEST_FAILURE> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_FAILURE> 
+            <TEST_NAME> testAssertTrue </TEST_NAME> 
+            <FILE_NAME> ..\..\Examples\ExampleTests.c </FILE_NAME> 
+            <LINE_NUMBER> 80 </LINE_NUMBER> 
+            <CONDITION> CU_ASSERT_TRUE(CU_FALSE) </CONDITION> 
+          </CUNIT_RUN_TEST_FAILURE> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_FAILURE> 
+            <TEST_NAME> testAssertFalse </TEST_NAME> 
+            <FILE_NAME> ..\..\Examples\ExampleTests.c </FILE_NAME> 
+            <LINE_NUMBER> 88 </LINE_NUMBER> 
+            <CONDITION> CU_ASSERT_FALSE(!CU_FALSE) </CONDITION> 
+          </CUNIT_RUN_TEST_FAILURE> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_FAILURE> 
+            <TEST_NAME> testAssertFalse </TEST_NAME> 
+            <FILE_NAME> ..\..\Examples\ExampleTests.c </FILE_NAME> 
+            <LINE_NUMBER> 89 </LINE_NUMBER> 
+            <CONDITION> CU_ASSERT_FALSE(CU_TRUE) </CONDITION> 
+          </CUNIT_RUN_TEST_FAILURE> 
+        </CUNIT_RUN_TEST_RECORD> 
+      </CUNIT_RUN_SUITE_SUCCESS> 
+    </CUNIT_RUN_SUITE> 
+    <CUNIT_RUN_SUITE> 
+      <CUNIT_RUN_SUITE_SUCCESS> 
+        <SUITE_NAME> TestEqualityAssert </SUITE_NAME> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_FAILURE> 
+            <TEST_NAME> testAssertEqual </TEST_NAME> 
+            <FILE_NAME> ..\..\Examples\ExampleTests.c </FILE_NAME> 
+            <LINE_NUMBER> 99 </LINE_NUMBER> 
+            <CONDITION> CU_ASSERT_EQUAL(10,11) </CONDITION> 
+          </CUNIT_RUN_TEST_FAILURE> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_FAILURE> 
+            <TEST_NAME> testAssertEqual </TEST_NAME> 
+            <FILE_NAME> ..\..\Examples\ExampleTests.c </FILE_NAME> 
+            <LINE_NUMBER> 100 </LINE_NUMBER> 
+            <CONDITION> CU_ASSERT_EQUAL(0,1) </CONDITION> 
+          </CUNIT_RUN_TEST_FAILURE> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_FAILURE> 
+            <TEST_NAME> testAssertEqual </TEST_NAME> 
+            <FILE_NAME> ..\..\Examples\ExampleTests.c </FILE_NAME> 
+            <LINE_NUMBER> 101 </LINE_NUMBER> 
+            <CONDITION> CU_ASSERT_EQUAL(0,-1) </CONDITION> 
+          </CUNIT_RUN_TEST_FAILURE> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_FAILURE> 
+            <TEST_NAME> testAssertEqual </TEST_NAME> 
+            <FILE_NAME> ..\..\Examples\ExampleTests.c </FILE_NAME> 
+            <LINE_NUMBER> 102 </LINE_NUMBER> 
+            <CONDITION> CU_ASSERT_EQUAL(-12,12) </CONDITION> 
+          </CUNIT_RUN_TEST_FAILURE> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_FAILURE> 
+            <TEST_NAME> testAssertNotEqual </TEST_NAME> 
+            <FILE_NAME> ..\..\Examples\ExampleTests.c </FILE_NAME> 
+            <LINE_NUMBER> 111 </LINE_NUMBER> 
+            <CONDITION> CU_ASSERT_NOT_EQUAL(10,10) </CONDITION> 
+          </CUNIT_RUN_TEST_FAILURE> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_FAILURE> 
+            <TEST_NAME> testAssertNotEqual </TEST_NAME> 
+            <FILE_NAME> ..\..\Examples\ExampleTests.c </FILE_NAME> 
+            <LINE_NUMBER> 112 </LINE_NUMBER> 
+            <CONDITION> CU_ASSERT_NOT_EQUAL(0,-0) </CONDITION> 
+          </CUNIT_RUN_TEST_FAILURE> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_FAILURE> 
+            <TEST_NAME> testAssertNotEqual </TEST_NAME> 
+            <FILE_NAME> ..\..\Examples\ExampleTests.c </FILE_NAME> 
+            <LINE_NUMBER> 113 </LINE_NUMBER> 
+            <CONDITION> CU_ASSERT_NOT_EQUAL(0,0) </CONDITION> 
+          </CUNIT_RUN_TEST_FAILURE> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_FAILURE> 
+            <TEST_NAME> testAssertNotEqual </TEST_NAME> 
+            <FILE_NAME> ..\..\Examples\ExampleTests.c </FILE_NAME> 
+            <LINE_NUMBER> 114 </LINE_NUMBER> 
+            <CONDITION> CU_ASSERT_NOT_EQUAL(-12,-12) </CONDITION> 
+          </CUNIT_RUN_TEST_FAILURE> 
+        </CUNIT_RUN_TEST_RECORD> 
+      </CUNIT_RUN_SUITE_SUCCESS> 
+    </CUNIT_RUN_SUITE> 
+    <CUNIT_RUN_SUITE> 
+      <CUNIT_RUN_SUITE_SUCCESS> 
+        <SUITE_NAME> TestPointerAssert </SUITE_NAME> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_FAILURE> 
+            <TEST_NAME> testAssertPtrEqual </TEST_NAME> 
+            <FILE_NAME> ..\..\Examples\ExampleTests.c </FILE_NAME> 
+            <LINE_NUMBER> 121 </LINE_NUMBER> 
+            <CONDITION> CU_ASSERT_PTR_EQUAL((void*)0x100,(void*)0x101) </CONDITION> 
+          </CUNIT_RUN_TEST_FAILURE> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_FAILURE> 
+            <TEST_NAME> testAssertPtrNotEqual </TEST_NAME> 
+            <FILE_NAME> ..\..\Examples\ExampleTests.c </FILE_NAME> 
+            <LINE_NUMBER> 128 </LINE_NUMBER> 
+            <CONDITION> CU_ASSERT_PTR_NOT_EQUAL((void*)0x100,(void*)0x100) </CONDITION> 
+          </CUNIT_RUN_TEST_FAILURE> 
+        </CUNIT_RUN_TEST_RECORD> 
+      </CUNIT_RUN_SUITE_SUCCESS> 
+    </CUNIT_RUN_SUITE> 
+    <CUNIT_RUN_SUITE> 
+      <CUNIT_RUN_SUITE_SUCCESS> 
+        <SUITE_NAME> TestNullnessAssert </SUITE_NAME> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_FAILURE> 
+            <TEST_NAME> testAssertPtrNull </TEST_NAME> 
+            <FILE_NAME> ..\..\Examples\ExampleTests.c </FILE_NAME> 
+            <LINE_NUMBER> 136 </LINE_NUMBER> 
+            <CONDITION> CU_ASSERT_PTR_NULL((void*)0x23) </CONDITION> 
+          </CUNIT_RUN_TEST_FAILURE> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_FAILURE> 
+            <TEST_NAME> testAssertPtrNotNull </TEST_NAME> 
+            <FILE_NAME> ..\..\Examples\ExampleTests.c </FILE_NAME> 
+            <LINE_NUMBER> 143 </LINE_NUMBER> 
+            <CONDITION> CU_ASSERT_PTR_NOT_NULL(NULL) </CONDITION> 
+          </CUNIT_RUN_TEST_FAILURE> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_FAILURE> 
+            <TEST_NAME> testAssertPtrNotNull </TEST_NAME> 
+            <FILE_NAME> ..\..\Examples\ExampleTests.c </FILE_NAME> 
+            <LINE_NUMBER> 144 </LINE_NUMBER> 
+            <CONDITION> CU_ASSERT_PTR_NOT_NULL((void*)0x0) </CONDITION> 
+          </CUNIT_RUN_TEST_FAILURE> 
+        </CUNIT_RUN_TEST_RECORD> 
+      </CUNIT_RUN_SUITE_SUCCESS> 
+    </CUNIT_RUN_SUITE> 
+    <CUNIT_RUN_SUITE> 
+      <CUNIT_RUN_SUITE_SUCCESS> 
+        <SUITE_NAME> TestStringAssert </SUITE_NAME> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_FAILURE> 
+            <TEST_NAME> testAssertStringEqual </TEST_NAME> 
+            <FILE_NAME> ..\..\Examples\ExampleTests.c </FILE_NAME> 
+            <LINE_NUMBER> 155 </LINE_NUMBER> 
+            <CONDITION> CU_ASSERT_STRING_EQUAL(str1,str3) </CONDITION> 
+          </CUNIT_RUN_TEST_FAILURE> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_FAILURE> 
+            <TEST_NAME> testAssertStringEqual </TEST_NAME> 
+            <FILE_NAME> ..\..\Examples\ExampleTests.c </FILE_NAME> 
+            <LINE_NUMBER> 156 </LINE_NUMBER> 
+            <CONDITION> CU_ASSERT_STRING_EQUAL(str3,str2) </CONDITION> 
+          </CUNIT_RUN_TEST_FAILURE> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_FAILURE> 
+            <TEST_NAME> testAssertStringNotEqual </TEST_NAME> 
+            <FILE_NAME> ..\..\Examples\ExampleTests.c </FILE_NAME> 
+            <LINE_NUMBER> 168 </LINE_NUMBER> 
+            <CONDITION> CU_ASSERT_STRING_NOT_EQUAL(str1,str2) </CONDITION> 
+          </CUNIT_RUN_TEST_FAILURE> 
+        </CUNIT_RUN_TEST_RECORD> 
+      </CUNIT_RUN_SUITE_SUCCESS> 
+    </CUNIT_RUN_SUITE> 
+    <CUNIT_RUN_SUITE> 
+      <CUNIT_RUN_SUITE_SUCCESS> 
+        <SUITE_NAME> TestNStringAssert </SUITE_NAME> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_FAILURE> 
+            <TEST_NAME> testAssertNStringEqual </TEST_NAME> 
+            <FILE_NAME> ..\..\Examples\ExampleTests.c </FILE_NAME> 
+            <LINE_NUMBER> 181 </LINE_NUMBER> 
+            <CONDITION> CU_ASSERT_NSTRING_EQUAL(str2,str3,4) </CONDITION> 
+          </CUNIT_RUN_TEST_FAILURE> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_FAILURE> 
+            <TEST_NAME> testAssertNStringEqual </TEST_NAME> 
+            <FILE_NAME> ..\..\Examples\ExampleTests.c </FILE_NAME> 
+            <LINE_NUMBER> 182 </LINE_NUMBER> 
+            <CONDITION> CU_ASSERT_NSTRING_EQUAL(str1,str3,strlen(str1)) </CONDITION> 
+          </CUNIT_RUN_TEST_FAILURE> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_FAILURE> 
+            <TEST_NAME> testAssertNStringNotEqual </TEST_NAME> 
+            <FILE_NAME> ..\..\Examples\ExampleTests.c </FILE_NAME> 
+            <LINE_NUMBER> 194 </LINE_NUMBER> 
+            <CONDITION> CU_ASSERT_NSTRING_NOT_EQUAL(str1,str2,2) </CONDITION> 
+          </CUNIT_RUN_TEST_FAILURE> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_FAILURE> 
+            <TEST_NAME> testAssertNStringNotEqual </TEST_NAME> 
+            <FILE_NAME> ..\..\Examples\ExampleTests.c </FILE_NAME> 
+            <LINE_NUMBER> 195 </LINE_NUMBER> 
+            <CONDITION> CU_ASSERT_NSTRING_NOT_EQUAL(str2,str3,2) </CONDITION> 
+          </CUNIT_RUN_TEST_FAILURE> 
+        </CUNIT_RUN_TEST_RECORD> 
+      </CUNIT_RUN_SUITE_SUCCESS> 
+    </CUNIT_RUN_SUITE> 
+    <CUNIT_RUN_SUITE> 
+      <CUNIT_RUN_SUITE_SUCCESS> 
+        <SUITE_NAME> TestDoubleAssert </SUITE_NAME> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_FAILURE> 
+            <TEST_NAME> testAssertDoubleEqual </TEST_NAME> 
+            <FILE_NAME> ..\..\Examples\ExampleTests.c </FILE_NAME> 
+            <LINE_NUMBER> 205 </LINE_NUMBER> 
+            <CONDITION> CU_ASSERT_DOUBLE_EQUAL(10,10.0001,0.00001) </CONDITION> 
+          </CUNIT_RUN_TEST_FAILURE> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_FAILURE> 
+            <TEST_NAME> testAssertDoubleEqual </TEST_NAME> 
+            <FILE_NAME> ..\..\Examples\ExampleTests.c </FILE_NAME> 
+            <LINE_NUMBER> 206 </LINE_NUMBER> 
+            <CONDITION> CU_ASSERT_DOUBLE_EQUAL(10,10.0001,-0.00001) </CONDITION> 
+          </CUNIT_RUN_TEST_FAILURE> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_FAILURE> 
+            <TEST_NAME> testAssertDoubleEqual </TEST_NAME> 
+            <FILE_NAME> ..\..\Examples\ExampleTests.c </FILE_NAME> 
+            <LINE_NUMBER> 207 </LINE_NUMBER> 
+            <CONDITION> CU_ASSERT_DOUBLE_EQUAL(-10,-10.0001,0.00001) </CONDITION> 
+          </CUNIT_RUN_TEST_FAILURE> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_FAILURE> 
+            <TEST_NAME> testAssertDoubleEqual </TEST_NAME> 
+            <FILE_NAME> ..\..\Examples\ExampleTests.c </FILE_NAME> 
+            <LINE_NUMBER> 208 </LINE_NUMBER> 
+            <CONDITION> CU_ASSERT_DOUBLE_EQUAL(-10,-10.0001,-0.00001) </CONDITION> 
+          </CUNIT_RUN_TEST_FAILURE> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_FAILURE> 
+            <TEST_NAME> testAssertDoubleNotEqual </TEST_NAME> 
+            <FILE_NAME> ..\..\Examples\ExampleTests.c </FILE_NAME> 
+            <LINE_NUMBER> 218 </LINE_NUMBER> 
+            <CONDITION> CU_ASSERT_DOUBLE_NOT_EQUAL(10,10.001,0.01) </CONDITION> 
+          </CUNIT_RUN_TEST_FAILURE> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_FAILURE> 
+            <TEST_NAME> testAssertDoubleNotEqual </TEST_NAME> 
+            <FILE_NAME> ..\..\Examples\ExampleTests.c </FILE_NAME> 
+            <LINE_NUMBER> 219 </LINE_NUMBER> 
+            <CONDITION> CU_ASSERT_DOUBLE_NOT_EQUAL(10,10.001,-0.01) </CONDITION> 
+          </CUNIT_RUN_TEST_FAILURE> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_FAILURE> 
+            <TEST_NAME> testAssertDoubleNotEqual </TEST_NAME> 
+            <FILE_NAME> ..\..\Examples\ExampleTests.c </FILE_NAME> 
+            <LINE_NUMBER> 220 </LINE_NUMBER> 
+            <CONDITION> CU_ASSERT_DOUBLE_NOT_EQUAL(-10,-10.001,0.01) </CONDITION> 
+          </CUNIT_RUN_TEST_FAILURE> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_FAILURE> 
+            <TEST_NAME> testAssertDoubleNotEqual </TEST_NAME> 
+            <FILE_NAME> ..\..\Examples\ExampleTests.c </FILE_NAME> 
+            <LINE_NUMBER> 221 </LINE_NUMBER> 
+            <CONDITION> CU_ASSERT_DOUBLE_NOT_EQUAL(-10,-10.001,-0.01) </CONDITION> 
+          </CUNIT_RUN_TEST_FAILURE> 
+        </CUNIT_RUN_TEST_RECORD> 
+      </CUNIT_RUN_SUITE_SUCCESS> 
+    </CUNIT_RUN_SUITE> 
+    <CUNIT_RUN_SUITE> 
+      <CUNIT_RUN_SUITE_SUCCESS> 
+        <SUITE_NAME> TestFatal </SUITE_NAME> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_FAILURE> 
+            <TEST_NAME> testFatal </TEST_NAME> 
+            <FILE_NAME> ..\..\Examples\ExampleTests.c </FILE_NAME> 
+            <LINE_NUMBER> 227 </LINE_NUMBER> 
+            <CONDITION> CU_FALSE </CONDITION> 
+          </CUNIT_RUN_TEST_FAILURE> 
+        </CUNIT_RUN_TEST_RECORD> 
+      </CUNIT_RUN_SUITE_SUCCESS> 
+    </CUNIT_RUN_SUITE> 
+  </CUNIT_RESULT_LISTING>
+  <CUNIT_RUN_SUMMARY> 
+    <CUNIT_RUN_SUMMARY_RECORD> 
+      <TYPE> Suites </TYPE> 
+      <TOTAL> 16 </TOTAL> 
+      <RUN> 14 </RUN> 
+      <SUCCEEDED> - NA - </SUCCEEDED> 
+      <FAILED> 3 </FAILED> 
+    </CUNIT_RUN_SUMMARY_RECORD> 
+    <CUNIT_RUN_SUMMARY_RECORD> 
+      <TYPE> Test Cases </TYPE> 
+      <TOTAL> 35 </TOTAL> 
+      <RUN> 31 </RUN> 
+      <SUCCEEDED> 10 </SUCCEEDED> 
+      <FAILED> 21 </FAILED> 
+    </CUNIT_RUN_SUMMARY_RECORD> 
+    <CUNIT_RUN_SUMMARY_RECORD> 
+      <TYPE> Assertions </TYPE> 
+      <TOTAL> 89 </TOTAL> 
+      <RUN> 89 </RUN> 
+      <SUCCEEDED> 47 </SUCCEEDED> 
+      <FAILED> 42 </FAILED> 
+    </CUNIT_RUN_SUMMARY_RECORD> 
+  </CUNIT_RUN_SUMMARY> 
+  <CUNIT_FOOTER> File Generated By CUnit v1.1-1 at Tue Sep 11 18:26:24 2012
+ </CUNIT_FOOTER> 
+</CUNIT_TEST_RUN_REPORT>
